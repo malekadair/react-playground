@@ -29,7 +29,7 @@ class Bomb extends React.Component {
   }
 
   render() {
-    return <div className="CountdownBomb">{this.renderDisplay()}</div>;
+    return <div>{this.renderDisplay()}</div>;
   }
 
   componentWillUnmount() {
