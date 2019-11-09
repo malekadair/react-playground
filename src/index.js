@@ -5,7 +5,4 @@ import "./index.css";
 import Bomb from "./state-drills/RouletteGun";
 import RouletteGun from "./state-drills/RouletteGun";
 
-ReactDOM.render(
-  <RouletteGun bulletInChamber="8" />,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
